@@ -1,0 +1,62 @@
+body{
+  margin: 0;
+}
+
+.pane{
+  display: flex;
+  flex-flow: row nowrap;
+  padding: 0.3rem;
+  background-color: rgb(207, 204, 206);
+}
+
+.top-pane{
+  background-color: rgb(196, 9, 124);
+}
+
+
+
+.editor-container{
+  flex: 1 1 30%;
+  border-radius: 0.2rem;
+  padding: 0.3rem;
+  background-color: rgb(49, 47, 47);
+  margin-right: 1%;
+}
+
+.editor-container:last-child{
+  margin-right: 0;
+}
+
+.editor-container.collapsed{
+  flex: 0 1 20%;
+}
+
+.editor-title{
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgb(2, 7, 6);
+  color: white;
+  font-weight: bold;
+  padding: 0.2rem;
+}
+
+.editor-container-btn{
+  color:rgb(238, 234, 234);
+  background-color: transparent;
+  border: none;
+}
+
+.code-mirror-wrapper{
+  background-color: rgb(25, 31, 29);
+
+}
+
+button{
+  background-color: rgb(43, 65, 65);
+  color: white;
+  padding: 0.5rem;
+  border-radius: 0.3rem;
+  cursor: pointer;
+}
